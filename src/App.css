@@ -445,5 +445,14 @@
   background-color: #000;
 }
 
+.water-height{
+  height: 100vh !important;
+  width: 100%;
+}
+
+.slider{
+  scroll-behavior: smooth !important;
+}
+
 /* media query */
 

@@ -17,6 +17,7 @@ import insta from "../imges/insta.png";
 import youtube from "../imges/youtube.png";
 import link from "../imges/link.png";
 import twitter from "../imges/twitter.png";
+import { Parallax } from 'react-parallax';
 
 function Proces(props) {
     return (
@@ -42,6 +43,7 @@ function Proces(props) {
             </div>
             <main>
                 <div className='slider'>
+                    
                     <div className='water slide-image'>
                         <div className='container'>
                             <div className='text-white '>
@@ -92,7 +94,7 @@ function Proces(props) {
                             <div className='text-white'>
                                 <div className='d-flex justify-content-between'>
                                     <div className='water-title toxic-air'>
-                                        <h4>NO<span className='inner-water-text ms-3 '>TOXIC AIR</span></h4>
+                                        <h4>NO<span className='inner-water-text ms-3'>TOXIC AIR</span></h4>
                                     </div>
                                     <div className='water-right toxic-right'>
                                         <p>Our Commitment To Sustainability Extends To The Air We Breathe, Which Is Why We Use Only Clean Energy Sources In Our Production Process Resulting In Cleaner Air For A Healthier Planet.</p>
@@ -173,7 +175,7 @@ function Proces(props) {
                 </div>
             </div>
 
-
+            
             <div className='footer-bg'>
                 <div className='container-fluid main-footer'>
                     <div className='row align-items-center'>
