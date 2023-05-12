@@ -43,13 +43,13 @@ function Proces(props) {
             </div>
             <main>
                 <div className='slider'>
-                    
-                    <div className='water slide-image'>
-                        <div className='container'>
-                            <div className='text-white '>
-                                <div className='d-flex justify-content-between '>
+                    <Parallax strength={100} bgImage={water} className='slide-image content1'>
+
+                        <div className='container water-container'>
+                            <div className='text-white'>
+                                <div className='d-flex justify-content-between'>
                                     <div className='water-title'>
-                                        <h4>NO<span className='inner-water-text ms-3'>WATER WASTED</span></h4>
+                                        <h4 className='nowater'>NO<span className='inner-water-text ms-3'>WATER WASTED</span></h4>
                                     </div>
                                     <div className='water-right'>
                                         <p>Our Advanced Technology Ensures That Every Drop Of Water Used In Our Manufacturing Process Is Recycled, Minimizing Waste And Preserving Precious Resources. We Take Great Pride In Our Environmentally Conscious Approach To Creating Beautiful Diamonds.</p>
@@ -57,12 +57,12 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className='energy slide-image'>
+                    </Parallax>
+                    <Parallax strength={100} bgImage={energy} className='slide-image enery1'>
                         <div className='container'>
-                            <div className='text-white'>
-                                <div className='d-flex justify-content-between '>
+                            <div className='text-white content2'>
+                                <div className='d-flex justify-content-between'>
                                     <div className='water-title'>
                                         <h4>NO<span className='inner-water-text ms-3'>POLLUTING ENERGY</span></h4>
                                     </div>
@@ -72,12 +72,12 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Parallax>
 
-                    <div className='earth slide-image'>
+                    <Parallax strength={100} bgImage={earth} className='slide-image earth1'>
                         <div className='container'>
-                            <div className='text-white'>
-                                <div className='d-flex justify-content-between '>
+                            <div className='text-white content3'>
+                                <div className='d-flex justify-content-between'>
                                     <div className='water-title earth-title'>
                                         <h4>NO<span className='inner-water-text ms-3'>EARTH UPROOTED</span></h4>
                                     </div>
@@ -87,11 +87,11 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Parallax>
 
-                    <div className='air slide-image'>
-                        <div className='container'>
-                            <div className='text-white'>
+                    <Parallax strength={100} bgImage={air} className='slide-image air1'>
+                        <div className='container content1'>
+                            <div className='text-white content4'>
                                 <div className='d-flex justify-content-between'>
                                     <div className='water-title toxic-air'>
                                         <h4>NO<span className='inner-water-text ms-3'>TOXIC AIR</span></h4>
@@ -102,11 +102,10 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Parallax>
 
-
-                    <div className='conflict slide-image'>
-                        <div className='container'>
+                    <Parallax strength={100} bgImage={conflict} className='slide-image'>
+                        <div className='container content2'>
                             <div className='text-white'>
                                 <div className='d-flex justify-content-between '>
                                     <div className='water-title conflict-title'>
@@ -118,10 +117,9 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Parallax>
 
-
-                    <div className='lend slide-image'>
+                    <Parallax strength={100} bgImage={lend} className='slide-image'>
                         <div className='container'>
                             <div className='text-white'>
                                 <div className='d-flex justify-content-between '>
@@ -134,7 +132,7 @@ function Proces(props) {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Parallax>
                 </div>
             </main>
 
@@ -175,7 +173,7 @@ function Proces(props) {
                 </div>
             </div>
 
-            
+
             <div className='footer-bg'>
                 <div className='container-fluid main-footer'>
                     <div className='row align-items-center'>
